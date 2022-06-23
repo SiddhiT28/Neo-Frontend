@@ -1,0 +1,128 @@
+.register_main {
+  display: flex;
+  align-items: stretch;
+  justify-content: stretch;
+  gap: 5vh;
+  width: 80vw;
+  margin: auto;
+  padding: 7vh 0;
+}
+
+.register_main .register_illustration {
+  display: grid;
+  place-items: center;
+}
+
+.register_main .register_illustration img {
+  width: 30vw;
+}
+
+.register_main .register_title {
+  margin: auto;
+}
+
+.register_main .register_title h1 {
+  font-size: 2.5vw;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--primaryColor);
+}
+
+.register_main .register_form {
+  background-color: white;
+  border-radius: 5px;
+  border: 1px solid var(--borderColor);
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  gap: 30px;
+  width: 30vw;
+}
+
+.register_main .register_form .register_form_inputGrp {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  gap: 10px;
+}
+
+.register_main .register_form .register_form_inputGrp .form_input_password {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  border: 1px solid var(--borderColor);
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.register_main
+  .register_form
+  .register_form_inputGrp
+  .form_input_password
+  input {
+  font-size: 1vw;
+  width: 100%;
+}
+
+.register_main
+  .register_form
+  .register_form_inputGrp
+  .form_input_password
+  button {
+  cursor: pointer;
+}
+
+.register_main .register_form .register_form_inputGrp .form_label {
+  font-size: 0.9vw;
+}
+
+.register_main .register_form .register_form_inputGrp .form_input {
+  border: none;
+  border: 1px solid var(--borderColor);
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 1vw;
+  user-select: auto;
+}
+
+.register_main .register_form .register_form_inputGrp .form_input:focus {
+  outline: none;
+  border: 1px solid var(--primaryColor);
+}
+
+.register_main .register_form .register_form_inputGrp .form_error {
+  font-size: 0.8vw;
+  color: var(--errorColor);
+}
+
+.register_main .register_form .form_button {
+  background-color: var(--primaryColor);
+  width: 100%;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 1vw;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+.register_main .register_form .form_button:hover {
+  background-color: var(--primaryHoverColor);
+}
+
+.register_main .register_form .form_login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+
+.register_main .register_form .form_login a {
+  color: var(--normalTextColor);
+  text-transform: uppercase;
+  font-size: 1vw;
+  text-decoration: none;
+}

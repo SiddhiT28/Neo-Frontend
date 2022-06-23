@@ -1,0 +1,74 @@
+.order_filter_dropdown {
+  background-color: white;
+  outline: none;
+  border: 1px solid var(--borderColor);
+  padding: 5px 8px;
+  font-size: 1vw;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.order_filter_dropdown optgroup {
+  font-size: 0.9vw;
+  font-weight: bold;
+  font-style: normal;
+}
+
+.order_filter_dropdown option {
+  font-size: 0.8vw;
+}
+
+.order_filter_dropdown option:hover {
+  background-color: var(--primaryColor);
+  color: white;
+}
+
+.order_list {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  height: 80vh;
+  overflow-y: scroll;
+}
+
+.order_list .list_item {
+  display: flex;
+  align-items: stretch;
+  gap: 30px;
+  background-color: white;
+  border: 1px solid var(--lightBorder);
+  border-radius: 5px;
+  padding: 10px 20px;
+}
+
+.order_list .list_item .item_details {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.order_list .list_item .item_details .details_item {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.order_list .list_item .item_details .details_item .title_productName {
+  font-size: 1.2vw;
+  font-weight: 500;
+}
+.order_list .list_item .item_details .details_item .title_productStatus {
+  font-size: 1vw;
+  font-weight: 500;
+}
+.order_list .list_item .item_details .details_item .details_productQuantity {
+  font-size: 1vw;
+}
+.order_list .list_item .item_details .details_item .details_productPrice {
+  font-size: 1vw;
+}

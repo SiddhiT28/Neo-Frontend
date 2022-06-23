@@ -1,0 +1,246 @@
+.main_profile {
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+  gap: 10vw;
+  margin: 5vh 10vw;
+  height: 100%;
+}
+
+.main_profile .profile_navigation {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 20px;
+}
+
+.main_profile .profile_navigation > h1 {
+  font-size: 2vw;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+
+.main_profile .profile_navigation .navigation_list {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  gap: 20px;
+  border-right: 1px solid var(--borderColor);
+  height: 100%;
+  padding-right: 10px;
+}
+
+.main_profile .profile_navigation .navigation_list .list_item {
+  cursor: pointer;
+  padding: 10px 12px;
+  border-radius: 5px;
+}
+
+.main_profile .profile_navigation .navigation_list .selected {
+  cursor: pointer;
+  padding: 10px 12px;
+  border-radius: 5px;
+  background-color: var(--primaryColor);
+  color: white;
+}
+
+.main_profile .profile_navigation .navigation_list p {
+  font-size: 1.2vw;
+}
+
+/* Add address */
+.main_profile .profile_content {
+  width: 100%;
+}
+
+.main_profile .profile_content .content_form {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  gap: 20px;
+}
+
+.main_profile .profile_content .content_form > p {
+  font-size: 1.2vw;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+
+.main_profile .profile_content .content_form .input_grp {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  gap: 10px;
+}
+
+.main_profile .profile_content .content_form .input_grp input {
+  border: 1px solid var(--borderColor);
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 1.2vw;
+  width: 100%;
+  background-color: white;
+  user-select: text;
+}
+
+.main_profile .profile_content .content_form .input_grp .input_dropDown {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 10px;
+}
+.main_profile .profile_content .content_form .input_grp .input_select {
+  border: 1px solid var(--borderColor);
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 1vw;
+  background: #ffff;
+}
+
+.main_profile .profile_content .content_form .input_grp .input_dropDown button {
+  border: 1px solid var(--borderColor);
+  border-radius: 5px;
+  padding: 10px;
+  width: 100%;
+  text-align: left;
+  font-size: 0.9vw;
+  background-color: white;
+  cursor: pointer;
+}
+
+.main_profile .profile_content .content_form .input_grp textarea {
+  border: 1px solid var(--borderColor);
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 1.2vw;
+  width: 100%;
+  background-color: white;
+  user-select: text;
+  resize: none;
+  outline: none;
+}
+
+.main_profile .profile_content .content_form .addBtn {
+  background-color: var(--primaryColor);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 1vw;
+  cursor: pointer;
+}
+
+/* View Address */
+
+.main_profile .profile_content .viewAddress_list {
+  display: flex;
+  align-items: stretch;
+  justify-content: flex-start;
+  gap: 20px;
+  flex-wrap: wrap;
+  height: 30vh;
+}
+
+.main_profile .profile_content .viewAddress_list .list_addAddress_btn {
+  color: #565959;
+  border: 2px dashed var(--borderColor);
+  border-radius: 5px;
+  padding: 0 20px;
+  font-size: 1vw;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-weight: 500;
+}
+
+.main_profile .profile_content .viewAddress_list .list_addAddress_btn:hover {
+  border-color: var(--primaryColor);
+  color: var(--primaryColor);
+}
+
+.main_profile .profile_content .viewAddress_list .list_item {
+  background-color: white;
+  border: 1px solid var(--borderColor);
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 1vw;
+}
+
+.main_profile .profile_content .viewAddress_list .list_item .item_details {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 19vw;
+}
+
+.main_profile
+  .profile_content
+  .viewAddress_list
+  .list_item
+  .item_details
+  .details_addressName {
+  font-size: 1.2vw;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+
+.main_profile
+  .profile_content
+  .viewAddress_list
+  .list_item
+  .item_details
+  .details_locality,
+.main_profile
+  .profile_content
+  .viewAddress_list
+  .list_item
+  .item_details
+  .details_city,
+.main_profile
+  .profile_content
+  .viewAddress_list
+  .list_item
+  .item_details
+  .details_state,
+.main_profile
+  .profile_content
+  .viewAddress_list
+  .list_item
+  .item_details
+  .details_postalCode {
+  opacity: 0.8;
+}
+
+.main_profile
+  .profile_content
+  .viewAddress_list
+  .list_item
+  .item_details
+  .details_cta {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+  margin-top: 5vh;
+}
+
+.main_profile
+  .profile_content
+  .viewAddress_list
+  .list_item
+  .item_details
+  .details_cta
+  button {
+  color: var(--primaryColor);
+  border: none;
+  border-radius: 5px;
+  font-size: 0.9vw;
+  cursor: pointer;
+}

@@ -1,0 +1,134 @@
+.login_main {
+  display: flex;
+  /* flex-direction: column; */
+  align-items: center;
+  justify-content: space-between;
+  gap: 5vh;
+  width: 80vw;
+  margin: auto;
+  padding: 10vh 0;
+  position: relative;
+}
+
+.login_main .login_illustration {
+  display: grid;
+  place-items: center;
+}
+
+.login_main .login_illustration img {
+  width: 20vw;
+}
+
+.login_main .login_title {
+  margin: auto;
+}
+
+.login_main .login_title h1 {
+  font-size: 2.5vw;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--primaryColor);
+}
+
+.login_main .login_form {
+  background-color: var(--secondaryColor);
+  border-radius: 5px;
+  border: 1px solid var(--borderColor);
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  gap: 30px;
+  width: 30vw;
+}
+
+.login_main .login_form .login_form_inputGrp {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  gap: 10px;
+}
+
+.login_main .login_form .login_form_inputGrp .form_input_password {
+  border: 1px solid var(--borderColor);
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+.login_main .login_form .login_form_inputGrp .form_input_password input {
+  font-size: 1vw;
+  width: 100%;
+}
+
+.login_main .login_form .login_form_inputGrp .form_input_password button {
+  cursor: pointer;
+}
+
+.login_main .login_form .login_form_inputGrp .form_label {
+  font-size: 0.9vw;
+}
+
+.login_main .login_form .login_form_inputGrp .form_input {
+  border: none;
+  border: 1px solid var(--borderColor);
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 1vw;
+  user-select: auto;
+}
+.login_main
+  .login_form
+  .login_form_inputGrp
+  .login_main
+  .login_form
+  .login_form_inputGrp
+  input:focus {
+  outline: none;
+  border: 1px solid var(--primaryColor);
+}
+.login_main .login_form .form_forgotPassword {
+  width: 100%;
+}
+.login_main .login_form .form_forgotPassword a {
+  width: 100%;
+  font-size: 0.9vw;
+  color: var(--normalTextColor);
+  text-decoration: none;
+  text-transform: uppercase;
+  display: inline-block;
+  text-align: end;
+}
+
+.login_main .login_form .form_button {
+  background-color: var(--primaryColor);
+  width: 100%;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 1vw;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+.login_main .login_form .form_button:hover {
+  background-color: var(--primaryHoverColor);
+}
+
+.login_main .login_form .form_register {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+
+.login_main .login_form .form_register a {
+  color: var(--normalTextColor);
+  text-transform: uppercase;
+  font-size: 0.9vw;
+  text-decoration: none;
+}

@@ -1,0 +1,28 @@
+.wrapper_popup_bg {
+  background: rgba(0, 0, 0, 0.61);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 10;
+}
+
+.wrapper_popup_bg .wrapper_popup_center {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 40vw;
+  padding: 5vh 2vw;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+}
+
+.wrapper_popup_bg .wrapper_popup_center .popup_center_controls button {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  cursor: pointer;
+}

@@ -1,0 +1,97 @@
+.retailer_dashboard_lyt {
+  width: 100vw;
+  padding: 10px 20px;
+}
+
+.retailer_dashboard_lyt .retailer_dashboard_header {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+}
+
+.retailer_dashboard_lyt .retailer_dashboard_header h1 {
+  font-size: 1.5vw;
+  text-transform: uppercase;
+  letter-spacing: 1.14px;
+  color: #2b2b2b;
+}
+
+.retailer_dashboard_lyt .retailer_dashboard_header p {
+  letter-spacing: 1.14px;
+  margin-left: auto;
+  font-size: 1.2vw;
+  font-weight: 500;
+}
+
+.retailer_dashboard_lyt .retailer_dashboard_nav {
+  width: 100%;
+  margin-top: 20px;
+  position: relative;
+}
+.retailer_dashboard_lyt .retailer_dashboard_nav::before {
+  content: "";
+  position: absolute;
+  bottom: -20px;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background-color: rgba(0, 0, 0, 0.25);
+}
+
+.retailer_dashboard_lyt .retailer_dashboard_nav .dashboard_nav_list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+.retailer_dashboard_lyt
+  .retailer_dashboard_nav
+  .dashboard_nav_list
+  .nav_list_item {
+  font-size: 1vw;
+  letter-spacing: 1.14px;
+  text-transform: uppercase;
+  color: #434343;
+  font-weight: 500;
+  padding: 0 20px;
+  cursor: pointer;
+}
+
+.retailer_dashboard_lyt
+  .retailer_dashboard_nav
+  .dashboard_nav_list
+  .nav_list_item.selected {
+  color: #7877cc;
+  position: relative;
+  transition: all 0.3s ease-in-out;
+}
+
+.retailer_dashboard_lyt
+  .retailer_dashboard_nav
+  .dashboard_nav_list
+  .nav_list_item.selected::before {
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  content: "";
+  width: 100%;
+  height: 2px;
+  animation: reveal 0.3s ease-out;
+  background-color: #7877cc;
+}
+
+@keyframes reveal {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+.retailer_dashboard_view {
+  width: 100%;
+  margin-top: 40px;
+}

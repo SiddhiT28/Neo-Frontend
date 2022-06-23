@@ -1,0 +1,103 @@
+.retailer_authentication_page {
+  width: 100vw;
+  height: 100vh;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.retailer_authentication_page h1 {
+  font-size: 2vw;
+  font-weight: 500;
+  color: #2b2b2b;
+  text-transform: uppercase;
+  letter-spacing: 1.14px;
+  line-height: 1.5;
+  width: 15vw;
+}
+
+.retailer_authentication_page .retailer_form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5vh;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 30vw;
+}
+
+.retailer_authentication_page .retailer_form .form_grp {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 20px;
+  width: 100%;
+}
+
+.retailer_authentication_page .retailer_form .form_grp label {
+  font-size: 1vw;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 1.14px;
+}
+
+.retailer_authentication_page .retailer_form .form_grp input {
+  font-size: 1vw;
+  padding: 12px 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 100%;
+}
+
+.retailer_authentication_page .retailer_form .form_grp .password_grp {
+  font-size: 1vw;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: 12px;
+}
+
+.retailer_authentication_page .retailer_form .form_grp .password_grp input {
+  border: none;
+  padding: 12px 10px;
+}
+
+.retailer_authentication_page .retailer_form .form_grp .password_grp button {
+  display: grid;
+  place-items: center;
+  cursor: pointer;
+}
+
+.retailer_authentication_page .retailer_form .form_grp p {
+  font-size: 1vw;
+  font-weight: 400;
+  color: #2b2b2b;
+}
+
+.retailer_authentication_page .retailer_form .form_grp a {
+  font-size: 1vw;
+  font-weight: 400;
+  text-decoration: none;
+  color: #7877cc;
+}
+
+.retailer_authentication_page .retailer_form .form_grp > button {
+  width: 100%;
+  font-size: 1vw;
+  padding: 12px 10px;
+  border-radius: 5px;
+  background-color: #7877cc;
+  color: white;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 1.14px;
+  cursor: pointer;
+}

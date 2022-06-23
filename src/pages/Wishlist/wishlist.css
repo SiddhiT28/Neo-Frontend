@@ -1,0 +1,126 @@
+/* #DAE9FF */
+
+.wrapper_lyt_wishlist {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 30px;
+  padding: 10vh 15vw;
+}
+
+.lyt_navDetail {
+  font-size: 1vw;
+  opacity: 0.5;
+}
+.lyt_navDetail .navDetail_text {
+  letter-spacing: 2.14px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.wrapper_lyt_wishlist .lyt_wishlist_heading {
+  font-size: 2vw;
+}
+.wrapper_lyt_wishlist .lyt_wishlist_heading h1 {
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 1.14px;
+}
+.wrapper_lyt_wishlist .lyt_wishlist_content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  gap: 20px;
+  justify-content: center;
+}
+.wrapper_lyt_wishlist .lyt_wishlist_content .wishlist_content_list {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 100%;
+  gap: 20px;
+  background-color: white;
+  border: 1px solid #dae9ff;
+  border-radius: 5px;
+  padding: 10px 20px;
+}
+
+.wrapper_lyt_wishlist
+  .lyt_wishlist_content
+  .wishlist_content_list
+  .content_list_item {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 20px;
+  width: 100%;
+}
+
+.wrapper_lyt_wishlist
+  .lyt_wishlist_content
+  .wishlist_content_list
+  .content_list_item
+  .list_item_head {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  width: 100%;
+  height: 15vh;
+}
+
+.wrapper_lyt_wishlist
+  .lyt_wishlist_content
+  .wishlist_content_list
+  .content_list_item
+  .list_item_head
+  .item_head_title {
+  font-size: 1.2vw;
+  color: #2b2b2b;
+  text-decoration: none;
+  align-items: flex-start;
+  width: max-content;
+}
+.wrapper_lyt_wishlist
+  .lyt_wishlist_content
+  .wishlist_content_list
+  .content_list_item
+  .item_head_removeBtn {
+  cursor: pointer;
+  justify-self: flex-end;
+}
+
+.wrapper_lyt_wishlist
+  .lyt_wishlist_content
+  .wishlist_content_list
+  .content_list_item
+  .item_head_stock.inStock {
+  color: #50cb93;
+}
+
+.wrapper_lyt_wishlist
+  .lyt_wishlist_content
+  .wishlist_content_list
+  .content_list_item
+  .item_head_stock {
+  font-size: 1vw;
+  align-self: flex-end;
+}
+
+.wrapper_lyt_wishlist
+  .lyt_wishlist_content
+  .wishlist_content_list
+  .content_list_item
+  .item_head_cardBtn {
+  width: max-content;
+  height: max-content;
+  align-self: flex-end;
+  justify-self: flex-end;
+  font-size: 0.9vw;
+  font-weight: 500;
+  border-radius: 5px;
+  cursor: pointer;
+  opacity: 0.8;
+}
